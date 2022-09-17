@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Fancy letterheaded paper</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        font-family: sans-serif;
+      }
+
+      body {
+        margin: 0;
+        background: #ccc;
+        background-color: white;
+      }
+
+      article {
+        width: 210mm;
+        height: 111mm;
+        margin: 20px auto;
+        position: relative;
+      }
+
+      address {
+        position: absolute;
+        right: 5mm;
+        margin-top: 50%;
+      }
+
+      h1 {
+        position: absolute;
+        top: 12mm;
+        left: 20mm;
+        width: 128px;
+        height: 128px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 44px 0;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        background-image: url(images/logo.png);
+        margin-left: 25%;
+        box-shadow: 5px 5px 10px rgb(64, 58, 58);
+      }
+
+      header {
+        margin-left: 25%;
+      }
+      footer {
+        margin-left: 25%;
+      }
+      .img {
+        border-top: 2px solid red;
+      }
+      .img-2 {
+        border-bottom: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <header><img class="img" src="images/top-image.png" alt="" /></header>
+    <h1>Awesome<br />Company</h1>
+
+    <article>
+      <address>
+        <p>The Awesome Company</p>
+        <p>
+          102-112 Frail Bend Bridge<br />
+          The Dwindlings<br />
+          Little Hornet<br />
+          HX3 9ZQ<br />
+          UK
+        </p>
+      </address>
+    </article>
+    <footer>
+      <img class="img-2" src="images/bottom-image.png" alt="" />
+    </footer>
+  </body>
+</html>
